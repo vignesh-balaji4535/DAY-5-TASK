@@ -1,0 +1,17 @@
+window:
+The window object represents the current browser window or tab and is the top-level object in the browser's object model hierarchy.
+It contains properties and methods that allow you to manipulate the browser window,
+including properties like window.innerWidth and window.innerHeight,
+which represent the width and height of the browser window, and methods like window.alert(), which displays an alert box.
+
+document:
+The document object represents the web page loaded in the current browser window or tab.
+It is a child of the window object and provides access to the content of the web page, 
+including its HTML structure, elements, and styles.
+You can use properties like document.title to get or set the title of the web page,
+and methods like document.getElementById() to retrieve a specific HTML element by its ID.
+
+screen:
+The screen object represents the physical display screen on which the browser window is being displayed.
+It provides information about the size and resolution of the screen, 
+including properties like screen.width and screen.height to get the width and height of the screen in pixels.
